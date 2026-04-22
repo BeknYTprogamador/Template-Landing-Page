@@ -77,7 +77,6 @@ This project is a modern landing page built with **React** and **Bootstrap 5**. 
 ## Limitations
 * Slideshow translation bug (captions remain in English).
 * Slideshow lacks manual navigation controls.
-* Hero image not integrated.
 * Footer constrained by container width.
 * Accessibility improvements needed.
 
