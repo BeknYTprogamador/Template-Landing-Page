@@ -5,6 +5,8 @@
 Idiomas Disponíveis:
 - [English](README(English).md)
 - [Português Brasileiro](README(PT-BR).md)
+- [Español (España)](README(ES).md)
+
 
 
 Este projeto é uma landing page moderna construída com **React** e **Bootstrap 5**. Ele demonstra um design limpo e responsivo com barra de navegação, seção hero, slideshow, serviços, sobre, portfólio e rodapé.
@@ -28,6 +30,16 @@ Este projeto é uma landing page moderna construída com **React** e **Bootstrap
 - **Organização das Updates**: Estruturada a pasta `updates/locales/` para separar notas de versão por idioma.
 - **Consistência**: Garantido que os arquivos de documentação sigam o mesmo formato para facilitar navegação e colaboração.
 - **Crescimento Planejado**: Novas traduções de README serão adicionadas conforme a landing page expandir o suporte a mais idiomas.
+
+## Novidades na versão Alpha 2.3
+
+- **Suporte à tradução para espanhol (Espanha)**: Adicionado o arquivo es.json em `src/locales/` para habilitar o conteúdo em espanhol.
+
+**Atualização do seletor de idiomas**: O menu suspenso da barra de navegação agora inclui inglês, português (Brasil) e espanhol (Espanha).
+
+**Expansão da documentação**: Introduzido o arquivo `README(ES).md` na pasta documentation/ para fornecer detalhes completos do projeto em espanhol.
+
+**Consistência**: Garantimos que todos os arquivos de tradução (en.json, pt-br.json, es.json) sigam a mesma estrutura para facilitar a manutenção.
 
 
 ## Componentes

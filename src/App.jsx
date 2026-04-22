@@ -2,10 +2,11 @@ import { useState } from "react";
 import Slideshow from "./components/Slideshow";
 import en from "./locales/en.json";
 import pt from "./locales/pt-br.json";
+import es from "./locales/esp-es.json";
 
 function App() {
   const [lang, setLang] = useState("en");
-  const translations = { en, pt };
+  const translations = { en, pt, es };
   const t = translations[lang];
 
   return (
@@ -51,6 +52,7 @@ function App() {
             >
               <option value="en">English</option>
               <option value="pt">Português</option>
+              <option value="es">Español</option>
             </select>
           </div>
         </div>

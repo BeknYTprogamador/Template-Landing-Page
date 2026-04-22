@@ -5,6 +5,8 @@
 Available languages:
 - [English](README(English).md)
 - [Português Brasileiro](README(PT-BR).md)
+- [Español (España)](README(ES).md)
+
 
 This project is a modern landing page built with **React** and **Bootstrap 5**. It demonstrates a clean, responsive design with a navigation bar, hero section, slideshow, services, about, portfolio, and footer.
 
@@ -27,6 +29,16 @@ This project is a modern landing page built with **React** and **Bootstrap 5**. 
 - **Updates Organization**: Structured the `updates/locales/` directory to separate release notes by language.
 - **Consistency**: Ensured documentation files follow the same format for easier navigation and collaboration.
 - **Planned Growth**: Future README translations will be added as the landing page expands to support more languages.
+
+## New in Alpha 2.3
+
+- **Spanish (Spain) Translation Support**: Added es.json file under `src/locales/` to enable Spanish content.
+
+**Language Selector Update**: The Navbar dropdown now includes English, Portuguese (Brazil), and Spanish (Spain).
+
+**Documentation Expansion**: Introduced `README(ES).md` in the documentation/ folder to provide full project details in Spanish.
+
+**Consistency**: Ensured all translation files (en.json, pt-br.json, es.json) follow the same structure for easier maintenance.
 
 
 ## Components

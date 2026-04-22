@@ -4,8 +4,9 @@ import slide2 from "../assets/slide2.png";
 import slide3 from "../assets/slide3.png";
 import en from "../locales/en.json";
 import pt from "../locales/pt-br.json";
+import es from "../locales/esp-es.json";
 
-const translations = { en, pt };
+const translations = { en, pt, es };
 
 function Slideshow({ lang }) {
   const [current, setCurrent] = useState(0);
