@@ -1,0 +1,53 @@
+{
+  "navbar": {
+    "logo": "Logo",
+    "services": "Serviços",
+    "about": "Equipe",
+    "portfolio": "Portfólio"
+  },
+  "hero": {
+    "title": "Bem-vindo a este Website",
+    "subtitle": "Uma landing page moderna em React + Bootstrap"
+  },
+  "services": {
+    "title": "Serviços",
+    "web": "Desenvolvimento Web",
+    "mobile": "Desenvolvimento de Aplicativos Mobile",
+    "design": "Design UI/UX"
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "text": "Somos uma equipe de desenvolvedores e designers apaixonados, dedicados a criar experiências digitais incríveis."
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "projects": {
+      "a": { "title": "Projeto A", "description": "Website de E-commerce" },
+      "b": { "title": "Projeto B", "description": "Aplicativo Mobile para Monitoramento Fitness" },
+      "c": { "title": "Projeto C", "description": "Redesign de Website Corporativo" }
+    }
+  },
+  "footer": {
+    "text": "© 2026 Minha Empresa. Todos os direitos reservados."
+  },
+  "slides": [
+    {
+      "title": "Serviços",
+      "description": "Descubra nossa gama de serviços projetados para ajudar seu negócio a crescer.",
+      "buttonText": "Saiba Mais",
+      "buttonLink": "#services"
+    },
+    {
+      "title": "Equipe Especializada",
+      "description": "Profissionais prontos para atender às suas necessidades.",
+      "buttonText": "Conheça a Equipe",
+      "buttonLink": "#about"
+    },
+    {
+      "title": "Resultados Reais",
+      "description": "Projetos que entregam impacto e crescimento.",
+      "buttonText": "Ver Portfólio",
+      "buttonLink": "#portfolio"
+    }
+  ]
+}

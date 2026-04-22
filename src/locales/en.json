@@ -1,0 +1,53 @@
+{
+  "navbar": {
+    "logo": "Logo",
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio"
+  },
+  "hero": {
+    "title": "Welcome to this Website",
+    "subtitle": "A modern React + Bootstrap landing page"
+  },
+  "services": {
+    "title": "Services",
+    "web": "Web Development",
+    "mobile": "Mobile App Development",
+    "design": "UI/UX Design"
+  },
+  "about": {
+    "title": "About Us",
+    "text": "We are a team of passionate developers and designers dedicated to creating amazing digital experiences."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": {
+      "a": { "title": "Project A", "description": "E-commerce Website" },
+      "b": { "title": "Project B", "description": "Mobile App for Fitness Tracking" },
+      "c": { "title": "Project C", "description": "Corporate Website Redesign" }
+    }
+  },
+  "footer": {
+    "text": "© 2026 My Company. All rights reserved."
+  },
+  "slides": [
+    {
+      "title": "Services",
+      "description": "Discover our range of services designed to help your business grow.",
+      "buttonText": "Learn More",
+      "buttonLink": "#services"
+    },
+    {
+      "title": "Specialized Team",
+      "description": "Professionals ready to meet your needs.",
+      "buttonText": "Meet the Team",
+      "buttonLink": "#about"
+    },
+    {
+      "title": "Real Results",
+      "description": "Projects that deliver impact and growth.",
+      "buttonText": "View Portfolio",
+      "buttonLink": "#portfolio"
+    }
+  ]
+}
