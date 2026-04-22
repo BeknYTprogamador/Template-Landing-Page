@@ -2,19 +2,32 @@
 
 ## Overview
 
+Available languages:
+- [English](README(English).md)
+- [Português Brasileiro](README(PT-BR).md)
+
 This project is a modern landing page built with **React** and **Bootstrap 5**. It demonstrates a clean, responsive design with a navigation bar, hero section, slideshow, services, about, portfolio, and footer.
 
 ## New in Alpha 2.0
 - **Portuguese (Brazilian) Translation Support**: Added `en.json` and `pt.json` files under `src/locales/` to enable multi-language content.
 - **Language Selector**: A `<select>` dropdown in the Navbar allows switching between English and Portuguese.
 - **Updates Folder**: Introduced a new `updates/` directory where contributors can document release notes, issues, and progress.  
-  - Example: `Alpha-2.0-Portuguese-Brazilian-Version.md` describes the initial translation implementation and the slideshow issue.
+  - Example: `Alpha-2.0` describes the initial translation implementation and the slideshow issue.
 
 ## New in Alpha 2.2.0
 - **Locale Refinement**: Updated translation route from `pt` to `pt-br` to correctly reflect Brazilian Portuguese standards.
 - **Consistency Fix**: Adjusted imports and references in `App.jsx` and `Slideshow.jsx` to use `pt-br.json`.
 - **Resolved Issue**: Slideshow captions now translate properly when switching languages.
-- **Documentation**: Added `Alpha-2.2.0-Portuguese-Brazilian-Version.md` in the `updates/` folder to record this refinement.
+- **Documentation**: Added `Alpha-2.2.0.md` in the `updates/` folder to record this refinement.
+
+## New in Alpha 2.2.1
+- **Documentation Expansion**: Added multilingual README files in the `documentation/` folder:
+  - `README(English).md`
+  - `README(PT-BR).md`
+- **Updates Organization**: Structured the `updates/locales/` directory to separate release notes by language.
+- **Consistency**: Ensured documentation files follow the same format for easier navigation and collaboration.
+- **Planned Growth**: Future README translations will be added as the landing page expands to support more languages.
+
 
 ## Components
 
