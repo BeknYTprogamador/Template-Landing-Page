@@ -5,11 +5,16 @@
 This project is a modern landing page built with **React** and **Bootstrap 5**. It demonstrates a clean, responsive design with a navigation bar, hero section, slideshow, services, about, portfolio, and footer.
 
 ## New in Alpha 2.0
-
 - **Portuguese (Brazilian) Translation Support**: Added `en.json` and `pt.json` files under `src/locales/` to enable multi-language content.
 - **Language Selector**: A `<select>` dropdown in the Navbar allows switching between English and Portuguese.
 - **Updates Folder**: Introduced a new `updates/` directory where contributors can document release notes, issues, and progress.  
-  - Example: `Alpha-2.0-Portuguese-Brazilian-Version.md` describes the current translation implementation and the known slideshow issue.
+  - Example: `Alpha-2.0-Portuguese-Brazilian-Version.md` describes the initial translation implementation and the slideshow issue.
+
+## New in Alpha 2.2.0
+- **Locale Refinement**: Updated translation route from `pt` to `pt-br` to correctly reflect Brazilian Portuguese standards.
+- **Consistency Fix**: Adjusted imports and references in `App.jsx` and `Slideshow.jsx` to use `pt-br.json`.
+- **Resolved Issue**: Slideshow captions now translate properly when switching languages.
+- **Documentation**: Added `Alpha-2.2.0-Portuguese-Brazilian-Version.md` in the `updates/` folder to record this refinement.
 
 ## Components
 
@@ -31,9 +36,8 @@ This project is a modern landing page built with **React** and **Bootstrap 5**. 
   * Title
   * Description
   * Call-to-action button
-* Texts are now loaded from translation files (`en.json` / `pt.json`).
-* Current limitation:
-  * **Known Bug**: Portuguese translation is not yet applied correctly to slideshow captions. Documented in `updates/Alpha-2.0-Portuguese-Brazilian-Version.md`.
+* Texts are loaded from translation files (`en.json` / `pt-br.json`).
+* **Status:** Translation bug fixed in Alpha 2.2.0.
 
 ### Services Section
 * Three columns showcasing services:
@@ -71,22 +75,20 @@ This project is a modern landing page built with **React** and **Bootstrap 5**. 
 ## Strengths
 * Clean structure and logical sectioning.
 * Effective use of Bootstrap for responsiveness.
-* Translation support for English and Portuguese.
+* Translation support for English and Brazilian Portuguese.
 * Easy to extend and customize.
 
 ## Limitations
-* Slideshow translation bug (captions remain in English).
 * Slideshow lacks manual navigation controls.
 * Footer constrained by container width.
 * Accessibility improvements needed.
 
 ## Suggested Improvements
-1. Fix slideshow translation bug to fully support Portuguese captions.
-2. Add manual navigation controls (arrows, indicators) to slideshow.
-3. Overlay captions on slideshow images with semi-transparent background.
-4. Use `.container-fluid` for full-width elements (navbar, slideshow, footer).
-5. Add descriptive alt text for images.
-6. Improve contrast for better readability.
+1. Add manual navigation controls (arrows, indicators) to slideshow.
+2. Overlay captions on slideshow images with semi-transparent background.
+3. Use `.container-fluid` for full-width elements (navbar, slideshow, footer).
+4. Add descriptive alt text for images.
+5. Improve contrast for better readability.
 
 ## Conclusion
-This project provides a solid foundation for a modern landing page. With multilingual support introduced in Alpha 2.0 and further enhancements to the slideshow and accessibility, it can evolve into a polished, professional template suitable for real-world use.
+This project provides a solid foundation for a modern landing page. With multilingual support refined in Alpha 2.2.0 and further enhancements to the slideshow and accessibility, it can evolve into a polished, professional template suitable for real-world use.
