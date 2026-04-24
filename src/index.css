@@ -24,7 +24,8 @@ nav {
   top: 0;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
   
 }
 .navbar {
@@ -106,7 +107,7 @@ nav ul li a:hover {
   margin: 40px auto;
   overflow: hidden;
   border-radius: 8px;
-  left: 8%;
+  left: 5%;
 }
 
 .slideshow img {
@@ -115,5 +116,6 @@ nav ul li a:hover {
   object-fit: cover;
   
 }
+
 
 

@@ -12,51 +12,63 @@ function App() {
   return (
     <div className="container">
       {/* Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-white mb-4 shadow-none">
-        <div className="container-fluid">
-          <a className="navbar-brand text-dark fw-bold" href="#">
-            {t.navbar.logo}
+      <nav className="navbar navbar-expand-lg navbar-light bg-white mb-4 ">
+  <div className="container-fluid">
+    {/* Logo */}
+    <a className="navbar-brand text-dark fw-bold" href="#">
+      {t.navbar.logo}
+    </a>
+
+    {/* Botão toggler (hambúrguer) */}
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
+
+    {/* Menu colapsável */}
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav ms-auto align-items-lg-center">
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="#services">
+            {t.navbar.services}
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="#about">
+            {t.navbar.about}
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="#portfolio">
+            {t.navbar.portfolio}
+          </a>
+        </li>
+
+        {/* Language Selector dentro do menu */}
+        <li className="nav-item ms-lg-3">
+          <select
+            className="form-select"
+            style={{ width: "auto" }}
+            value={lang}
+            onChange={(e) => setLang(e.target.value)}
           >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link text-dark" href="#services">
-                  {t.navbar.services}
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-dark" href="#about">
-                  {t.navbar.about}
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link text-dark" href="#portfolio">
-                  {t.navbar.portfolio}
-                </a>
-              </li>
-            </ul>
-            {/* Language Selector */}
-            <select
-              className="form-select ms-3"
-              style={{ width: "auto" }}
-              value={lang}
-              onChange={(e) => setLang(e.target.value)}
-            >
-              <option value="en">English</option>
-              <option value="pt">Português</option>
-              <option value="es">Español</option>
-            </select>
-          </div>
-        </div>
-      </nav>
+            <option value="en">English</option>
+            <option value="pt">Português</option>
+            <option value="es">Español</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
       {/* Hero */}
       <header className="text-center mb-5">
@@ -112,7 +124,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="footer text-center py-4 bg-light mt-5">
+      <footer className="footer text-center py-4 mt-5">
         <p className="mb-0">{t.footer.text}</p>
       </footer>
     </div>
